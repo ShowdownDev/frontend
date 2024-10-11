@@ -1,16 +1,11 @@
 ---
-
+import Layout from "../layouts/layout.astro";
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="Home">
+	<div class="container max-w-screen-sm mx-auto flex justify-center dark:text-white">
+		<div class="my-auto">
+			<h1 class="font-mono text-2xl">Work In Progress</h1>
+			<p>This site is a work in progress, come back soon!</p>
+		</div>
+	</div>
+</Layout>
